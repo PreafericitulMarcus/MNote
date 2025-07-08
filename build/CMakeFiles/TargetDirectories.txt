@@ -1,0 +1,5 @@
+/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles/MNote.dir
+/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles/edit_cache.dir
+/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles/rebuild_cache.dir
+/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles/MNote_autogen_timestamp_deps.dir
+/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles/MNote_autogen.dir

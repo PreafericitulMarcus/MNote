@@ -1,0 +1,35 @@
+MainWindow:
+    -[] add the title of the current file. If doesn't have one set to MNote.
+    -[] find an icon
+    -[] set Consolar main font
+
+Keyboard shortcuts:
+    -[] Ctrl + Shift + Enter -> add new line above (anywhere from current cursor position)
+    -[] Shift + Enter -> add line below (anywhere from current cursor position)
+    -[] Ctrl + L -> indent Right whole line (anywhere from current cursor position)
+    -[] Ctrl + K -> indent Middle whole line (anywhere from current position)
+    -[] Ctrl + J -> indent Left whole line (anywhere from current position)
+    -[] Ctrl + Shift + L -> jump to last character on line
+    -[] Ctrl + S -> Save if exists, else Save As
+    -[] Ctrl + Z -> Undo
+    -[] Ctrl + Y -> Redo
+?   -[] Ctrl + A -> Select All 
+?   -[] Ctrl + P -> Print
+    -[] Ctrl + O -> Open
+    -[] Ctrl + Q -> Save and Exit
+    -[] Ctrl + N -> New
+    -[] Ctrl + F -> Find    (bring new window for more features, e.g. find all, find and replace)
+?   -[] Ctrl + C -> Copy    
+?   -[] Ctrl + V -> Paste
+    -[] Ctrl + Shift + K -> delete whole line
+    
+
+Functionality:
+?   -[] Open last edited 
+    -[] Autosave
+    -[] Markdown implementation 
+?   -[] Word count 
+?   -[] Date and time implementation (e.g. !time -> current date and time)
+?   -[] Create templates (e.g. !template "name_of_tamplate")
+    -[] Automatically add closing brakets, quotes
+    -[] Automatic upper case after . ? ! 

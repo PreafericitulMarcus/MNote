@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/marcus/Coding/C++ Projects/MNote/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -isystem \"/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/include\" -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/marcus/Qt/6.9.1/gcc_64/include -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/marcus/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -fPIC -o CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o -c \"/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp\"",
+  "file": "/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/marcus/Coding/C++ Projects/MNote/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -isystem \"/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/include\" -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/marcus/Qt/6.9.1/gcc_64/include -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/marcus/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -fPIC -o CMakeFiles/MNote.dir/main.cpp.o -c \"/home/marcus/Coding/C++ Projects/MNote/main.cpp\"",
+  "file": "/home/marcus/Coding/C++ Projects/MNote/main.cpp",
+  "output": "CMakeFiles/MNote.dir/main.cpp.o"
+},
+{
+  "directory": "/home/marcus/Coding/C++ Projects/MNote/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -isystem \"/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/include\" -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/marcus/Qt/6.9.1/gcc_64/include -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/marcus/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtGui -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -fPIC -o CMakeFiles/MNote.dir/mainwindow.cpp.o -c \"/home/marcus/Coding/C++ Projects/MNote/mainwindow.cpp\"",
+  "file": "/home/marcus/Coding/C++ Projects/MNote/mainwindow.cpp",
+  "output": "CMakeFiles/MNote.dir/mainwindow.cpp.o"
+}
+]
