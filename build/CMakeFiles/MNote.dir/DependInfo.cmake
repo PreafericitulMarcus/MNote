@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "MNote_autogen/timestamp" "custom" "MNote_autogen/deps"
   "/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp" "CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o.d"
-  "/home/marcus/Coding/C++ Projects/MNote/main.cpp" "CMakeFiles/MNote.dir/main.cpp.o" "gcc" "CMakeFiles/MNote.dir/main.cpp.o.d"
-  "/home/marcus/Coding/C++ Projects/MNote/mainwindow.cpp" "CMakeFiles/MNote.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/MNote.dir/mainwindow.cpp.o.d"
+  "/home/marcus/Coding/C++ Projects/MNote/src/main.cpp" "CMakeFiles/MNote.dir/src/main.cpp.o" "gcc" "CMakeFiles/MNote.dir/src/main.cpp.o.d"
+  "/home/marcus/Coding/C++ Projects/MNote/src/mainwindow.cpp" "CMakeFiles/MNote.dir/src/mainwindow.cpp.o" "gcc" "CMakeFiles/MNote.dir/src/mainwindow.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

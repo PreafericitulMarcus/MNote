@@ -3,10 +3,11 @@ MNote_autogen/timestamp: \
   CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
   CMakeFiles/3.28.3/CMakeSystem.cmake \
   MNote_autogen/moc_predefs.h \
-  /home/marcus/Coding/C++\ Projects/MNote/main.cpp \
-  /home/marcus/Coding/C++\ Projects/MNote/mainwindow.cpp \
-  /home/marcus/Coding/C++\ Projects/MNote/mainwindow.h \
-  /home/marcus/Coding/C++\ Projects/MNote/mainwindow.ui \
+  /home/marcus/Coding/C++\ Projects/MNote/src/font.qrc \
+  /home/marcus/Coding/C++\ Projects/MNote/src/main.cpp \
+  /home/marcus/Coding/C++\ Projects/MNote/src/mainwindow.cpp \
+  /home/marcus/Coding/C++\ Projects/MNote/src/mainwindow.h \
+  /home/marcus/Coding/C++\ Projects/MNote/src/mainwindow.ui \
   /home/marcus/Qt/6.9.1/gcc_64/include/QtCore/q17memory.h \
   /home/marcus/Qt/6.9.1/gcc_64/include/QtCore/q20functional.h \
   /home/marcus/Qt/6.9.1/gcc_64/include/QtCore/q20iterator.h \

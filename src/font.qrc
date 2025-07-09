@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fonts/YaHei.Consolas.1.12.ttf</file>
+    </qresource>
+</RCC>

@@ -404,7 +404,8 @@
 		"/home/marcus/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
 		"/home/marcus/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake",
 		"/home/marcus/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
-		"/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake"
+		"/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake",
+		"/home/marcus/Coding/C++ Projects/MNote/src/font.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/marcus/Coding/C++ Projects/MNote",
 	"DEP_FILE" : "/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/deps",
@@ -412,9 +413,9 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/marcus/Coding/C++ Projects/MNote/mainwindow.h",
+			"/home/marcus/Coding/C++ Projects/MNote/src/mainwindow.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"UVLADIE3JM/moc_mainwindow.cpp",
 			null
 		]
 	],
@@ -477,8 +478,12 @@
 	"SETTINGS_FILE" : "/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles/MNote_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/marcus/Coding/C++ Projects/MNote/main.cpp", "MU", null ],
-		[ "/home/marcus/Coding/C++ Projects/MNote/mainwindow.cpp", "MU", null ]
+		[ "/home/marcus/Coding/C++ Projects/MNote/src/main.cpp", "MU", null ],
+		[
+			"/home/marcus/Coding/C++ Projects/MNote/src/mainwindow.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

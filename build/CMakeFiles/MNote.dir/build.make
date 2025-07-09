@@ -69,10 +69,17 @@ include CMakeFiles/MNote.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MNote.dir/flags.make
 
+MNote_autogen/timestamp: /usr/lib/qt6/libexec/moc
+MNote_autogen/timestamp: /usr/lib/qt6/libexec/uic
+MNote_autogen/timestamp: CMakeFiles/MNote.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target MNote"
+	/usr/bin/cmake -E cmake_autogen "/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles/MNote_autogen.dir/AutogenInfo.json" ""
+	/usr/bin/cmake -E touch "/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp"
+
 CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o: CMakeFiles/MNote.dir/flags.make
 CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o: MNote_autogen/mocs_compilation.cpp
 CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o: CMakeFiles/MNote.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o -MF CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o -c "/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp"
 
 CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.i: cmake_force
@@ -83,46 +90,46 @@ CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp" -o CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/MNote.dir/main.cpp.o: CMakeFiles/MNote.dir/flags.make
-CMakeFiles/MNote.dir/main.cpp.o: /home/marcus/Coding/C++\ Projects/MNote/main.cpp
-CMakeFiles/MNote.dir/main.cpp.o: CMakeFiles/MNote.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MNote.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MNote.dir/main.cpp.o -MF CMakeFiles/MNote.dir/main.cpp.o.d -o CMakeFiles/MNote.dir/main.cpp.o -c "/home/marcus/Coding/C++ Projects/MNote/main.cpp"
+CMakeFiles/MNote.dir/src/mainwindow.cpp.o: CMakeFiles/MNote.dir/flags.make
+CMakeFiles/MNote.dir/src/mainwindow.cpp.o: /home/marcus/Coding/C++\ Projects/MNote/src/mainwindow.cpp
+CMakeFiles/MNote.dir/src/mainwindow.cpp.o: CMakeFiles/MNote.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MNote.dir/src/mainwindow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MNote.dir/src/mainwindow.cpp.o -MF CMakeFiles/MNote.dir/src/mainwindow.cpp.o.d -o CMakeFiles/MNote.dir/src/mainwindow.cpp.o -c "/home/marcus/Coding/C++ Projects/MNote/src/mainwindow.cpp"
 
-CMakeFiles/MNote.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MNote.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marcus/Coding/C++ Projects/MNote/main.cpp" > CMakeFiles/MNote.dir/main.cpp.i
+CMakeFiles/MNote.dir/src/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MNote.dir/src/mainwindow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marcus/Coding/C++ Projects/MNote/src/mainwindow.cpp" > CMakeFiles/MNote.dir/src/mainwindow.cpp.i
 
-CMakeFiles/MNote.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MNote.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marcus/Coding/C++ Projects/MNote/main.cpp" -o CMakeFiles/MNote.dir/main.cpp.s
+CMakeFiles/MNote.dir/src/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MNote.dir/src/mainwindow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marcus/Coding/C++ Projects/MNote/src/mainwindow.cpp" -o CMakeFiles/MNote.dir/src/mainwindow.cpp.s
 
-CMakeFiles/MNote.dir/mainwindow.cpp.o: CMakeFiles/MNote.dir/flags.make
-CMakeFiles/MNote.dir/mainwindow.cpp.o: /home/marcus/Coding/C++\ Projects/MNote/mainwindow.cpp
-CMakeFiles/MNote.dir/mainwindow.cpp.o: CMakeFiles/MNote.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MNote.dir/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MNote.dir/mainwindow.cpp.o -MF CMakeFiles/MNote.dir/mainwindow.cpp.o.d -o CMakeFiles/MNote.dir/mainwindow.cpp.o -c "/home/marcus/Coding/C++ Projects/MNote/mainwindow.cpp"
+CMakeFiles/MNote.dir/src/main.cpp.o: CMakeFiles/MNote.dir/flags.make
+CMakeFiles/MNote.dir/src/main.cpp.o: /home/marcus/Coding/C++\ Projects/MNote/src/main.cpp
+CMakeFiles/MNote.dir/src/main.cpp.o: CMakeFiles/MNote.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MNote.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MNote.dir/src/main.cpp.o -MF CMakeFiles/MNote.dir/src/main.cpp.o.d -o CMakeFiles/MNote.dir/src/main.cpp.o -c "/home/marcus/Coding/C++ Projects/MNote/src/main.cpp"
 
-CMakeFiles/MNote.dir/mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MNote.dir/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marcus/Coding/C++ Projects/MNote/mainwindow.cpp" > CMakeFiles/MNote.dir/mainwindow.cpp.i
+CMakeFiles/MNote.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MNote.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/marcus/Coding/C++ Projects/MNote/src/main.cpp" > CMakeFiles/MNote.dir/src/main.cpp.i
 
-CMakeFiles/MNote.dir/mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MNote.dir/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marcus/Coding/C++ Projects/MNote/mainwindow.cpp" -o CMakeFiles/MNote.dir/mainwindow.cpp.s
+CMakeFiles/MNote.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MNote.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/marcus/Coding/C++ Projects/MNote/src/main.cpp" -o CMakeFiles/MNote.dir/src/main.cpp.s
 
 # Object files for target MNote
 MNote_OBJECTS = \
 "CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/MNote.dir/main.cpp.o" \
-"CMakeFiles/MNote.dir/mainwindow.cpp.o"
+"CMakeFiles/MNote.dir/src/mainwindow.cpp.o" \
+"CMakeFiles/MNote.dir/src/main.cpp.o"
 
 # External object files for target MNote
 MNote_EXTERNAL_OBJECTS =
 
 MNote: CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o
-MNote: CMakeFiles/MNote.dir/main.cpp.o
-MNote: CMakeFiles/MNote.dir/mainwindow.cpp.o
+MNote: CMakeFiles/MNote.dir/src/mainwindow.cpp.o
+MNote: CMakeFiles/MNote.dir/src/main.cpp.o
 MNote: CMakeFiles/MNote.dir/build.make
 MNote: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 MNote: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
@@ -130,7 +137,7 @@ MNote: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 MNote: /usr/lib/x86_64-linux-gnu/libGLX.so
 MNote: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 MNote: CMakeFiles/MNote.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MNote"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable MNote"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MNote.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -141,7 +148,7 @@ CMakeFiles/MNote.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/MNote.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/MNote.dir/clean
 
-CMakeFiles/MNote.dir/depend:
+CMakeFiles/MNote.dir/depend: MNote_autogen/timestamp
 	cd "/home/marcus/Coding/C++ Projects/MNote/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/marcus/Coding/C++ Projects/MNote" "/home/marcus/Coding/C++ Projects/MNote" "/home/marcus/Coding/C++ Projects/MNote/build" "/home/marcus/Coding/C++ Projects/MNote/build" "/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles/MNote.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/MNote.dir/depend
 

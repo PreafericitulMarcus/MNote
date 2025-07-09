@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MNote_autogen"
+  "MNote_autogen/include/src/ui_mainwindow.h"
   "MNote_autogen/mocs_compilation.cpp"
   "MNote_autogen/timestamp"
 )

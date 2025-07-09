@@ -11,9 +11,10 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QGridLayout>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenuBar>
-#include <QtWidgets/QStatusBar>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QTextEdit>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -22,24 +23,40 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QMenuBar *menubar;
-    QStatusBar *statusbar;
+    QGridLayout *gridLayout_2;
+    QGridLayout *gridLayout;
+    QTextEdit *textEdit;
+    QPushButton *pushButton;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(800, 600);
+        MainWindow->resize(934, 631);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
+        QFont font;
+        font.setFamilies({QString::fromUtf8("YaHei Consolas Hybrid")});
+        centralwidget->setFont(font);
+        gridLayout_2 = new QGridLayout(centralwidget);
+        gridLayout_2->setObjectName("gridLayout_2");
+        gridLayout = new QGridLayout();
+        gridLayout->setObjectName("gridLayout");
+        textEdit = new QTextEdit(centralwidget);
+        textEdit->setObjectName("textEdit");
+        textEdit->setFont(font);
+
+        gridLayout->addWidget(textEdit, 1, 0, 1, 1);
+
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName("pushButton");
+
+        gridLayout->addWidget(pushButton, 0, 0, 1, 1);
+
+
+        gridLayout_2->addLayout(gridLayout, 0, 0, 1, 1);
+
         MainWindow->setCentralWidget(centralwidget);
-        menubar = new QMenuBar(MainWindow);
-        menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 23));
-        MainWindow->setMenuBar(menubar);
-        statusbar = new QStatusBar(MainWindow);
-        statusbar->setObjectName("statusbar");
-        MainWindow->setStatusBar(statusbar);
 
         retranslateUi(MainWindow);
 
@@ -48,7 +65,8 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MNote", nullptr));
+        pushButton->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
     } // retranslateUi
 
 };

@@ -66,8 +66,9 @@ include CMakeFiles/MNote_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/MNote_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/MNote_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
+CMakeFiles/MNote_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
 CMakeFiles/MNote_autogen_timestamp_deps: /usr/lib/qt6/libexec/uic
+CMakeFiles/MNote_autogen_timestamp_deps: /usr/lib/qt6/libexec/moc
 CMakeFiles/MNote_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 
 MNote_autogen_timestamp_deps: CMakeFiles/MNote_autogen_timestamp_deps

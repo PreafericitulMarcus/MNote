@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen",
+	"CMAKE_BINARY_DIR" : "/home/marcus/Coding/C++ Projects/MNote/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/marcus/Coding/C++ Projects/MNote/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/marcus/Coding/C++ Projects/MNote",
+	"CMAKE_SOURCE_DIR" : "/home/marcus/Coding/C++ Projects/MNote",
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/marcus/Coding/C++ Projects/MNote/src/fonts/YaHei.Consolas.1.12.ttf"
+	],
+	"LOCK_FILE" : "/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles/MNote_autogen.dir/AutoRcc_font_UVLADIE3JM_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "font" ],
+	"OUTPUT_CHECKSUM" : "UVLADIE3JM",
+	"OUTPUT_NAME" : "qrc_font.cpp",
+	"RCC_EXECUTABLE" : "/home/marcus/Qt/6.9.1/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/marcus/Coding/C++ Projects/MNote/build/CMakeFiles/MNote_autogen.dir/AutoRcc_font_UVLADIE3JM_Used.txt",
+	"SOURCE" : "/home/marcus/Coding/C++ Projects/MNote/src/font.qrc",
+	"VERBOSITY" : 0
+}

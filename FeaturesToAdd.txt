@@ -1,7 +1,5 @@
 MainWindow:
     -[] add the title of the current file. If doesn't have one set to MNote.
-    -[] find an icon
-    -[] set Consolar main font
 
 Keyboard shortcuts:
     -[] Ctrl + Shift + Enter -> add new line above (anywhere from current cursor position)

@@ -4,12 +4,14 @@ file(REMOVE_RECURSE
   "MNote_autogen"
   "CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o.d"
-  "CMakeFiles/MNote.dir/main.cpp.o"
-  "CMakeFiles/MNote.dir/main.cpp.o.d"
-  "CMakeFiles/MNote.dir/mainwindow.cpp.o"
-  "CMakeFiles/MNote.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/MNote.dir/src/main.cpp.o"
+  "CMakeFiles/MNote.dir/src/main.cpp.o.d"
+  "CMakeFiles/MNote.dir/src/mainwindow.cpp.o"
+  "CMakeFiles/MNote.dir/src/mainwindow.cpp.o.d"
   "MNote"
   "MNote.pdb"
+  "MNote_autogen/mocs_compilation.cpp"
+  "MNote_autogen/timestamp"
 )
 
 # Per-language clean rules from dependency scanning.

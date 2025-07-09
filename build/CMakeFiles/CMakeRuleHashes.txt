@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+2384977f0f21af032c8c48c4cb9bca24 MNote_autogen/timestamp

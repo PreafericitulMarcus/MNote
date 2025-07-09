@@ -1,9 +1,17 @@
 # ninja log v6
-2	367	1752019332309210526	MNote_autogen/timestamp	c2ed39749cae4b3
-2	367	1752019332309210526	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-2	367	1752019332309210526	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-2	367	1752019332309210526	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-367	1957	1752019332318210795	CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o	890e2fbdb06398d1
-368	2018	1752019332319210825	CMakeFiles/MNote.dir/main.cpp.o	93b9e176e769cfd3
-367	2050	1752019332318210795	CMakeFiles/MNote.dir/mainwindow.cpp.o	7dbc331db4fa11f8
-2050	2452	1752019334001261095	MNote	b57f1729aea999dc
+5	30	1752070393705129815	MNote_autogen/timestamp	c2ed39749cae4b3
+5	30	1752070393705129815	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+5	30	1752070393705129815	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+32	1510	1752070067660156651	CMakeFiles/MNote.dir/src/main.cpp.o	e920380ca36bc4b4
+5	30	1752070393705129815	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
+354	1900	1752069881441765262	CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o	890e2fbdb06398d1
+354	2033	1752069881441765262	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
+1510	1906	1752070069138079982	MNote	c12e62da27f7e043
+3	33	1752070621988112844	MNote_autogen/timestamp	c2ed39749cae4b3
+3	33	1752070621988112844	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+3	33	1752070621988112844	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
+3	33	1752070621988112844	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+33	6122	1752070628064792231	MNote_autogen/UVLADIE3JM/qrc_font.cpp	2bd7adb319add10d
+33	6122	1752070628064792231	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/UVLADIE3JM/qrc_font.cpp	2bd7adb319add10d
+6122	28778	1752070628106790015	CMakeFiles/MNote.dir/MNote_autogen/UVLADIE3JM/qrc_font.cpp.o	f7693dfe39b45661
+28778	29197	1752070650762594388	MNote	4c5547c2d300b8e1

@@ -3,9 +3,10 @@ MNote_autogen/timestamp: \
 	/home/marcus/Coding/C++\ Projects/MNote/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
 	/home/marcus/Coding/C++\ Projects/MNote/build/CMakeFiles/3.28.3/CMakeSystem.cmake \
 	/home/marcus/Coding/C++\ Projects/MNote/build/MNote_autogen/moc_predefs.h \
-	/home/marcus/Coding/C++\ Projects/MNote/main.cpp \
-	/home/marcus/Coding/C++\ Projects/MNote/mainwindow.cpp \
-	/home/marcus/Coding/C++\ Projects/MNote/mainwindow.h \
+	/home/marcus/Coding/C++\ Projects/MNote/src/font.qrc \
+	/home/marcus/Coding/C++\ Projects/MNote/src/main.cpp \
+	/home/marcus/Coding/C++\ Projects/MNote/src/mainwindow.cpp \
+	/home/marcus/Coding/C++\ Projects/MNote/src/mainwindow.h \
 	/home/marcus/Qt/6.9.1/gcc_64/include/QtCore/q17memory.h \
 	/home/marcus/Qt/6.9.1/gcc_64/include/QtCore/q20functional.h \
 	/home/marcus/Qt/6.9.1/gcc_64/include/QtCore/q20iterator.h \
@@ -724,5 +725,5 @@ MNote_autogen/timestamp: \
 	/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/Linux.cmake \
 	/usr/share/cmake-3.28/Modules/Platform/UnixPaths.cmake \
-	/home/marcus/Coding/C++\ Projects/MNote/mainwindow.ui \
+	/home/marcus/Coding/C++\ Projects/MNote/src/mainwindow.ui \
 	/usr/bin/cmake
