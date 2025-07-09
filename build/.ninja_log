@@ -1,0 +1,9 @@
+# ninja log v6
+2	367	1752019332309210526	MNote_autogen/timestamp	c2ed39749cae4b3
+2	367	1752019332309210526	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+2	367	1752019332309210526	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
+2	367	1752019332309210526	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+367	1957	1752019332318210795	CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o	890e2fbdb06398d1
+368	2018	1752019332319210825	CMakeFiles/MNote.dir/main.cpp.o	93b9e176e769cfd3
+367	2050	1752019332318210795	CMakeFiles/MNote.dir/mainwindow.cpp.o	7dbc331db4fa11f8
+2050	2452	1752019334001261095	MNote	b57f1729aea999dc

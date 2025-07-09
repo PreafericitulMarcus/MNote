@@ -403,7 +403,8 @@
 		"/home/marcus/Qt/6.9.1/gcc_64/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateVersionlessAliasTargets.cmake",
 		"/home/marcus/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
 		"/home/marcus/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake",
-		"/home/marcus/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake"
+		"/home/marcus/Qt/6.9.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
+		"/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/marcus/Coding/C++ Projects/MNote",
 	"DEP_FILE" : "/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/deps",
@@ -430,10 +431,10 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/marcus/Qt/6.9.1/gcc_64/include/QtWidgets",
-		"/home/marcus/Qt/6.9.1/gcc_64/include",
 		"/home/marcus/Qt/6.9.1/gcc_64/include/QtCore",
+		"/home/marcus/Qt/6.9.1/gcc_64/include",
 		"/home/marcus/Qt/6.9.1/gcc_64/mkspecs/linux-g++",
+		"/home/marcus/Qt/6.9.1/gcc_64/include/QtWidgets",
 		"/home/marcus/Qt/6.9.1/gcc_64/include/QtGui",
 		"/usr/include",
 		"/usr/include/c++/13",
@@ -457,6 +458,7 @@
 	"MOC_PREDEFS_CMD" : 
 	[
 		"/usr/bin/c++",
+		"-std=gnu++17",
 		"-dM",
 		"-E",
 		"-c",

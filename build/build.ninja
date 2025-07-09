@@ -52,24 +52,24 @@ build cmake_object_order_depends_target_MNote: phony || MNote_autogen MNote_auto
 build CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o: CXX_COMPILER__MNote_unscanned_Debug /home/marcus/Coding/C++$ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_MNote
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -fPIC
-  INCLUDES = -isystem "/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/include" -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/marcus/Qt/6.9.1/gcc_64/include -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/marcus/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtGui
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -fPIC
+  INCLUDES = -I"/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/include" -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/marcus/Qt/6.9.1/gcc_64/include -isystem /home/marcus/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtGui
   OBJECT_DIR = CMakeFiles/MNote.dir
   OBJECT_FILE_DIR = CMakeFiles/MNote.dir/MNote_autogen
-
-build CMakeFiles/MNote.dir/main.cpp.o: CXX_COMPILER__MNote_unscanned_Debug /home/marcus/Coding/C++$ Projects/MNote/main.cpp || cmake_object_order_depends_target_MNote
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
-  DEP_FILE = CMakeFiles/MNote.dir/main.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -fPIC
-  INCLUDES = -isystem "/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/include" -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/marcus/Qt/6.9.1/gcc_64/include -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/marcus/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtGui
-  OBJECT_DIR = CMakeFiles/MNote.dir
-  OBJECT_FILE_DIR = CMakeFiles/MNote.dir
 
 build CMakeFiles/MNote.dir/mainwindow.cpp.o: CXX_COMPILER__MNote_unscanned_Debug /home/marcus/Coding/C++$ Projects/MNote/mainwindow.cpp || cmake_object_order_depends_target_MNote
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/MNote.dir/mainwindow.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -fPIC
-  INCLUDES = -isystem "/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/include" -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/marcus/Qt/6.9.1/gcc_64/include -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/marcus/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtGui
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -fPIC
+  INCLUDES = -I"/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/include" -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/marcus/Qt/6.9.1/gcc_64/include -isystem /home/marcus/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtGui
+  OBJECT_DIR = CMakeFiles/MNote.dir
+  OBJECT_FILE_DIR = CMakeFiles/MNote.dir
+
+build CMakeFiles/MNote.dir/main.cpp.o: CXX_COMPILER__MNote_unscanned_Debug /home/marcus/Coding/C++$ Projects/MNote/main.cpp || cmake_object_order_depends_target_MNote
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/MNote.dir/main.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g -std=gnu++17 -fPIC
+  INCLUDES = -I"/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/include" -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtCore -isystem /home/marcus/Qt/6.9.1/gcc_64/include -isystem /home/marcus/Qt/6.9.1/gcc_64/mkspecs/linux-g++ -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtWidgets -isystem /home/marcus/Qt/6.9.1/gcc_64/include/QtGui
   OBJECT_DIR = CMakeFiles/MNote.dir
   OBJECT_FILE_DIR = CMakeFiles/MNote.dir
 
@@ -81,7 +81,7 @@ build CMakeFiles/MNote.dir/mainwindow.cpp.o: CXX_COMPILER__MNote_unscanned_Debug
 #############################################
 # Link the executable MNote
 
-build MNote: CXX_EXECUTABLE_LINKER__MNote_Debug CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o CMakeFiles/MNote.dir/main.cpp.o CMakeFiles/MNote.dir/mainwindow.cpp.o | /home/marcus/Qt/6.9.1/gcc_64/lib/libQt6Widgets.so.6.9.1 /home/marcus/Qt/6.9.1/gcc_64/lib/libQt6Gui.so.6.9.1 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/marcus/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1 || MNote_autogen MNote_autogen_timestamp_deps
+build MNote: CXX_EXECUTABLE_LINKER__MNote_Debug CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o CMakeFiles/MNote.dir/mainwindow.cpp.o CMakeFiles/MNote.dir/main.cpp.o | /home/marcus/Qt/6.9.1/gcc_64/lib/libQt6Widgets.so.6.9.1 /home/marcus/Qt/6.9.1/gcc_64/lib/libQt6Gui.so.6.9.1 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /home/marcus/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1 || MNote_autogen MNote_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/home/marcus/Qt/6.9.1/gcc_64/lib  /home/marcus/Qt/6.9.1/gcc_64/lib/libQt6Widgets.so.6.9.1  /home/marcus/Qt/6.9.1/gcc_64/lib/libQt6Gui.so.6.9.1  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so  /home/marcus/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1  -Wl,-rpath-link,/home/marcus/Qt/6.9.1/gcc_64/lib
   OBJECT_DIR = CMakeFiles/MNote.dir
@@ -123,7 +123,7 @@ build MNote_autogen_timestamp_deps: phony CMakeFiles/MNote_autogen_timestamp_dep
 #############################################
 # Utility command for MNote_autogen
 
-build MNote_autogen: phony CMakeFiles/MNote_autogen MNote_autogen/timestamp MNote_autogen/mocs_compilation.cpp MNote_autogen_timestamp_deps
+build MNote_autogen: phony CMakeFiles/MNote_autogen MNote_autogen/include/ui_mainwindow.h MNote_autogen/timestamp MNote_autogen/mocs_compilation.cpp MNote_autogen_timestamp_deps
 
 
 #############################################
@@ -139,13 +139,13 @@ build MNote_autogen/timestamp MNote_autogen/mocs_compilation.cpp | ${cmake_ninja
 #############################################
 # Phony custom command for CMakeFiles/MNote_autogen_timestamp_deps
 
-build CMakeFiles/MNote_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/MNote_autogen_timestamp_deps: phony /home/marcus/Qt/6.9.1/gcc_64/libexec/uic /home/marcus/Qt/6.9.1/gcc_64/libexec/moc /home/marcus/Qt/6.9.1/gcc_64/lib/libQt6Widgets.so.6.9.1
+build CMakeFiles/MNote_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/MNote_autogen_timestamp_deps: phony /home/marcus/Qt/6.9.1/gcc_64/lib/libQt6Core.so.6.9.1 /home/marcus/Qt/6.9.1/gcc_64/libexec/uic /home/marcus/Qt/6.9.1/gcc_64/libexec/moc /home/marcus/Qt/6.9.1/gcc_64/lib/libQt6Widgets.so.6.9.1
 
 
 #############################################
 # Phony custom command for CMakeFiles/MNote_autogen
 
-build CMakeFiles/MNote_autogen | ${cmake_ninja_workdir}CMakeFiles/MNote_autogen: phony MNote_autogen/timestamp || MNote_autogen_timestamp_deps
+build CMakeFiles/MNote_autogen MNote_autogen/include/ui_mainwindow.h | ${cmake_ninja_workdir}CMakeFiles/MNote_autogen ${cmake_ninja_workdir}MNote_autogen/include/ui_mainwindow.h: phony MNote_autogen/timestamp || MNote_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.
