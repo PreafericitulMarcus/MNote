@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 
     QApplication::setApplicationName("MNote");
 
-
+    // added the conslas font and some validation. 
     int fontId = QFontDatabase::addApplicationFont(":/fonts/YaHei.Consolas.1.12.ttf");
     if (fontId < 0)
         qDebug() << "Failed to load Consolas font";
@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
     QApplication::setFont(consolas);    
 
     MainWindow window;
+    window.resize(800, 450);
     window.show();
 
     return app.exec();

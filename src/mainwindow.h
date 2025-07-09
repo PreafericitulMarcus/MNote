@@ -20,11 +20,30 @@ public:
 
 
 private slots:
-    void display();
+    
+    //keyboard shortcut slots
+    // void save();
+    // void paste();
+    void quit();
+    // void indentLeft();
+    // void indentMiddle();
+    // void indentRight();
+    // void undo();
+    // void uploadTemplate();
+    // void printDocument();
+    // void openDocument();
+    // void newDocument();
+    // void findInDocument();
+    bool eventFilter(QObject *obj, QEvent *event);
+    void jumpBelow();
+    void jumpAbove();
+    void jumpEndLine();
+    // void deleteCurrentLine();
 
 private:
     Ui::MainWindow *ui;
 
-    
+    void setupKeyboardShortcuts();
+   // void makeConnections();
 };
 #endif // MAINWINDOW_H
