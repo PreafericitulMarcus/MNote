@@ -1,0 +1,24 @@
+# Ignore build directories
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.exe
+*.out
+*.user
+*.user.*
+*.log
+
+# Qt specific
+*.pro.user
+*.qmake.stash
+*.autosave
+
+# Editor/OS files
+*.swp
+*~
+.DS_Store
+.vscode/
