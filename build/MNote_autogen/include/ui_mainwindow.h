@@ -13,7 +13,6 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QPushButton>
 #include <QtWidgets/QTextEdit>
 #include <QtWidgets/QWidget>
 
@@ -26,32 +25,36 @@ public:
     QGridLayout *gridLayout_2;
     QGridLayout *gridLayout;
     QTextEdit *textEdit;
-    QPushButton *pushButton;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(934, 631);
+        MainWindow->resize(1019, 677);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
+        QSizePolicy sizePolicy(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Expanding);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(centralwidget->sizePolicy().hasHeightForWidth());
+        centralwidget->setSizePolicy(sizePolicy);
         QFont font;
         font.setFamilies({QString::fromUtf8("YaHei Consolas Hybrid")});
         centralwidget->setFont(font);
         gridLayout_2 = new QGridLayout(centralwidget);
+        gridLayout_2->setSpacing(0);
         gridLayout_2->setObjectName("gridLayout_2");
+        gridLayout_2->setSizeConstraint(QLayout::SizeConstraint::SetDefaultConstraint);
+        gridLayout_2->setContentsMargins(0, 0, 0, 0);
         gridLayout = new QGridLayout();
         gridLayout->setObjectName("gridLayout");
+        gridLayout->setContentsMargins(5, 0, 5, 5);
         textEdit = new QTextEdit(centralwidget);
         textEdit->setObjectName("textEdit");
-        textEdit->setFont(font);
+        sizePolicy.setHeightForWidth(textEdit->sizePolicy().hasHeightForWidth());
+        textEdit->setSizePolicy(sizePolicy);
 
-        gridLayout->addWidget(textEdit, 1, 0, 1, 1);
-
-        pushButton = new QPushButton(centralwidget);
-        pushButton->setObjectName("pushButton");
-
-        gridLayout->addWidget(pushButton, 0, 0, 1, 1);
+        gridLayout->addWidget(textEdit, 0, 0, 1, 1);
 
 
         gridLayout_2->addLayout(gridLayout, 0, 0, 1, 1);
@@ -66,7 +69,6 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MNote", nullptr));
-        pushButton->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
     } // retranslateUi
 
 };

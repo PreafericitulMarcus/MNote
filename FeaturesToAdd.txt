@@ -1,13 +1,7 @@
-MainWindow:
-    -[] add the title of the current file. If doesn't have one set to MNote.
-
 Keyboard shortcuts:
-    -[] Ctrl + Shift + Enter -> add new line above (anywhere from current cursor position)
-    -[] Shift + Enter -> add line below (anywhere from current cursor position)
     -[] Ctrl + L -> indent Right whole line (anywhere from current cursor position)
     -[] Ctrl + K -> indent Middle whole line (anywhere from current position)
     -[] Ctrl + J -> indent Left whole line (anywhere from current position)
-    -[] Ctrl + Shift + L -> jump to last character on line
     -[] Ctrl + S -> Save if exists, else Save As
     -[] Ctrl + Z -> Undo
     -[] Ctrl + Y -> Redo
