@@ -1,38 +1,12 @@
 # ninja log v6
-5	518	1752234245525825085	MNote_autogen/timestamp	c2ed39749cae4b3
-33	6122	1752070628064792231	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/UVLADIE3JM/qrc_font.cpp	2bd7adb319add10d
-5	518	1752234245525825085	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-5	518	1752234245525825085	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-519	2988	1752234245540826100	CMakeFiles/MNote.dir/src/main.cpp.o	e920380ca36bc4b4
-5	518	1752234245525825085	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-518	2917	1752234245539826032	CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o	890e2fbdb06398d1
-6122	28778	1752070628106790015	CMakeFiles/MNote.dir/MNote_autogen/UVLADIE3JM/qrc_font.cpp.o	f7693dfe39b45661
-519	3600	1752234245540826100	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
-3600	4187	1752234248622034193	MNote	4c5547c2d300b8e1
-33	6122	1752070628064792231	MNote_autogen/UVLADIE3JM/qrc_font.cpp	2bd7adb319add10d
-4	46	1752234333694539471	MNote_autogen/timestamp	c2ed39749cae4b3
-4	46	1752234333694539471	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-4	46	1752234333694539471	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-4	46	1752234333694539471	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-46	2937	1752234333735542019	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
-2937	3488	1752234336626721431	MNote	4c5547c2d300b8e1
-4	490	1752236009531259635	MNote_autogen/timestamp	c2ed39749cae4b3
-4	490	1752236009531259635	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-4	490	1752236009531259635	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-4	490	1752236009531259635	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-490	2844	1752236009545259858	CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o	890e2fbdb06398d1
-491	2881	1752236009545259858	CMakeFiles/MNote.dir/src/main.cpp.o	e920380ca36bc4b4
-491	3275	1752236009545259858	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
-3275	3825	1752236012329304428	MNote	4c5547c2d300b8e1
-4	43	1752236052321963525	MNote_autogen/timestamp	c2ed39749cae4b3
-4	43	1752236052321963525	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-4	43	1752236052321963525	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-4	43	1752236052321963525	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-44	2702	1752236052361964202	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
-2702	3160	1752236055020009220	MNote	4c5547c2d300b8e1
-4	44	1752236386360559555	MNote_autogen/timestamp	c2ed39749cae4b3
-4	44	1752236386360559555	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-4	44	1752236386360559555	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-4	44	1752236386360559555	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-45	2763	1752236386401560458	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
-2764	3314	1752236389120620399	MNote	4c5547c2d300b8e1
+2	510	1752237373427360422	MNote_autogen/timestamp	c2ed39749cae4b3
+2	510	1752237373427360422	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+2	510	1752237373427360422	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
+2	510	1752237373427360422	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+510	7326	1752237380214542224	MNote_autogen/UVLADIE3JM/qrc_font.cpp	2bd7adb319add10d
+510	7326	1752237380214542224	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/UVLADIE3JM/qrc_font.cpp	2bd7adb319add10d
+7326	9121	1752237380254543296	CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o	890e2fbdb06398d1
+7326	9146	1752237380254543296	CMakeFiles/MNote.dir/src/main.cpp.o	e920380ca36bc4b4
+7326	9458	1752237380254543296	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
+7327	30437	1752237380255543323	CMakeFiles/MNote.dir/MNote_autogen/UVLADIE3JM/qrc_font.cpp.o	f7693dfe39b45661
+30437	30872	1752237403366162902	MNote	4c5547c2d300b8e1
