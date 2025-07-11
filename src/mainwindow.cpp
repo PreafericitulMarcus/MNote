@@ -43,6 +43,12 @@ void MainWindow::quit()
 
 void MainWindow::allignLeft()
 {
+    /*
+        This function takes the position of the cursor in the textEdit,
+        gets the block format of the current block, sets its alignment to left,
+        and merges this format with the current cursor.
+        Finally, it sets the cursor back to the textEdit.
+    */
     QTextCursor cursor = ui->textEdit->textCursor();
     QTextBlockFormat blockFormat = cursor.blockFormat();
     blockFormat.setAlignment(Qt::AlignLeft);
@@ -52,15 +58,27 @@ void MainWindow::allignLeft()
 
 void MainWindow::allignMiddle()
 {
+    /*
+        This function takes the position of the cursor in the textEdit,
+        gets the block format of the current block, sets its alignment to center,
+        and merges this format with the current cursor.
+        Finally, it sets the cursor back to the textEdit.
+    */
     QTextCursor cursor = ui->textEdit->textCursor();
     QTextBlockFormat blockFormat = cursor.blockFormat();
-    blockFormat.setAlignment(Qt::AlignHCenter);
+    blockFormat.setAlignment(Qt::AlignCenter);
     cursor.mergeBlockFormat(blockFormat);
     ui->textEdit->setTextCursor(cursor);
 }
 
 void MainWindow::allignRight()
 {
+    /*
+        This function takes the position of the cursor in the textEdit,
+        gets the block format of the current block, sets its alignment to right,
+        and merges this format with the current cursor.
+        Finally, it sets the cursor back to the textEdit.
+    */
     QTextCursor cursor = ui->textEdit->textCursor();
     QTextBlockFormat blockFormat = cursor.blockFormat();
     blockFormat.setAlignment(Qt::AlignRight);
@@ -98,9 +116,9 @@ bool MainWindow::eventFilter(QObject *obj, QEvent *event)
 void MainWindow::jumpBelow()
 {
     /*
-       This function takes the position of the cursor in the textEdit,
-       moves it to the END of the current line, and inserts a new block
-       (which is like a new line). Then it sets the cursor to the new block.
+        This function takes the position of the cursor in the textEdit,
+        moves it to the END of the current line, and inserts a new block
+        (which is like a new line). Then it sets the cursor to the new block.
     */
 
     QTextCursor cursor = ui->textEdit->textCursor();
@@ -112,10 +130,10 @@ void MainWindow::jumpBelow()
 void MainWindow::jumpAbove()
 {
     /*
-       This function takes the position of the cursor in the textEdit,
-       moves it to the START of the current line, and inserts a new block
-       (which is like a new line). Then we move the cursor above the current line, to the new block.
-       Then it sets the cursor to the new block.
+        This function takes the position of the cursor in the textEdit,
+        moves it to the START of the current line, and inserts a new block
+        (which is like a new line). Then we move the cursor above the current line, to the new block.
+        Then it sets the cursor to the new block.
     */
     QTextCursor cursor = ui->textEdit->textCursor();
     cursor.movePosition(QTextCursor::StartOfLine);
@@ -127,8 +145,8 @@ void MainWindow::jumpAbove()
 void MainWindow::jumpEndLine()
 {
     /*
-       This function takes the position of the cursor in the textEdit,
-       moves it to the END of the current line, and sets the cursor to that position.
+        This function takes the position of the cursor in the textEdit,
+        moves it to the END of the current line, and sets the cursor to that position.
     */
     QTextCursor cursor = ui->textEdit->textCursor();
     cursor.movePosition(QTextCursor::EndOfLine);
@@ -138,10 +156,10 @@ void MainWindow::jumpEndLine()
 void MainWindow::deleteCurrentLine()
 {
     /*
-       This function takes the position of the cursor in the textEdit,
-       moves it to the start of the current line, selects the entire line,
-       and removes the selected text, effectively deleting the current line.
-       The cursor is then set to the position at the start of the line.
+        This function takes the position of the cursor in the textEdit,
+        moves it to the start of the current line, selects the entire line,
+        and removes the selected text, effectively deleting the current line.
+        The cursor is then set to the position at the start of the line.
     */
     QTextCursor cursor = ui->textEdit->textCursor();
     cursor.movePosition(QTextCursor::StartOfLine);
