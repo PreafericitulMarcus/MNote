@@ -25,9 +25,9 @@ private slots:
     // void save();
     // void paste();
     void quit();
-    // void indentLeft();
-    // void indentMiddle();
-    // void indentRight();
+    void allignLeft();
+    void allignMiddle();
+    void allignRight();
     // void undo();
     // void uploadTemplate();
     // void printDocument();
@@ -38,7 +38,7 @@ private slots:
     void jumpBelow();
     void jumpAbove();
     void jumpEndLine();
-    // void deleteCurrentLine();
+    void deleteCurrentLine();
 
 private:
     Ui::MainWindow *ui;

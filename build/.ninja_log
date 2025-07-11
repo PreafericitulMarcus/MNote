@@ -1,64 +1,32 @@
 # ninja log v6
-4	35	1752082014578106927	MNote_autogen/timestamp	c2ed39749cae4b3
+5	518	1752234245525825085	MNote_autogen/timestamp	c2ed39749cae4b3
 33	6122	1752070628064792231	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/UVLADIE3JM/qrc_font.cpp	2bd7adb319add10d
-4	35	1752082014578106927	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-4	35	1752082014578106927	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-362	1990	1752080419460770656	CMakeFiles/MNote.dir/src/main.cpp.o	e920380ca36bc4b4
-4	35	1752082014578106927	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-362	1936	1752080419460770656	CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o	890e2fbdb06398d1
+5	518	1752234245525825085	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+5	518	1752234245525825085	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+519	2988	1752234245540826100	CMakeFiles/MNote.dir/src/main.cpp.o	e920380ca36bc4b4
+5	518	1752234245525825085	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
+518	2917	1752234245539826032	CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o	890e2fbdb06398d1
 6122	28778	1752070628106790015	CMakeFiles/MNote.dir/MNote_autogen/UVLADIE3JM/qrc_font.cpp.o	f7693dfe39b45661
-6	1899	1752081745422435683	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
-1899	2326	1752081747315335450	MNote	4c5547c2d300b8e1
+519	3600	1752234245540826100	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
+3600	4187	1752234248622034193	MNote	4c5547c2d300b8e1
 33	6122	1752070628064792231	MNote_autogen/UVLADIE3JM/qrc_font.cpp	2bd7adb319add10d
-5	1876	1752082039735761118	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
-1877	2288	1752082041607660944	MNote	4c5547c2d300b8e1
-7	41	1752082401787312300	MNote_autogen/timestamp	c2ed39749cae4b3
-7	41	1752082401787312300	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-7	41	1752082401787312300	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-7	41	1752082401787312300	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-7	42	1752082426828962831	MNote_autogen/timestamp	c2ed39749cae4b3
-7	42	1752082426828962831	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-7	42	1752082426828962831	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-7	42	1752082426828962831	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-42	1935	1752082426863960945	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
-1935	2341	1752082428756858921	MNote	4c5547c2d300b8e1
-6	39	1752082517619066862	MNote_autogen/timestamp	c2ed39749cae4b3
-6	39	1752082517619066862	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-6	39	1752082517619066862	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-6	39	1752082517619066862	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-3	48	1752082627650127200	MNote_autogen/timestamp	c2ed39749cae4b3
-3	48	1752082627650127200	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-3	48	1752082627650127200	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-3	48	1752082627650127200	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-48	1962	1752082627695124770	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
-1962	2381	1752082629609021403	MNote	4c5547c2d300b8e1
-4	37	1752082693427573749	MNote_autogen/timestamp	c2ed39749cae4b3
-4	37	1752082693427573749	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-4	37	1752082693427573749	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-4	37	1752082693427573749	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-4	48	1752082699282257382	MNote_autogen/timestamp	c2ed39749cae4b3
-4	48	1752082699282257382	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-4	48	1752082699282257382	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-4	48	1752082699282257382	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-48	1913	1752082699326255005	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
-1913	2341	1752082701192154174	MNote	4c5547c2d300b8e1
-6	41	1752082748413601952	MNote_autogen/timestamp	c2ed39749cae4b3
-6	41	1752082748413601952	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-6	41	1752082748413601952	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-6	41	1752082748413601952	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-6	38	1752082758873036534	MNote_autogen/timestamp	c2ed39749cae4b3
-6	38	1752082758873036534	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-6	38	1752082758873036534	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-6	38	1752082758873036534	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-38	1926	1752082758905034804	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
-1926	2338	1752082760793932689	MNote	4c5547c2d300b8e1
-3	52	1752082810200261334	MNote_autogen/timestamp	c2ed39749cae4b3
-3	52	1752082810200261334	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-3	52	1752082810200261334	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-3	52	1752082810200261334	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-7	54	1752082817515865719	MNote_autogen/timestamp	c2ed39749cae4b3
-7	54	1752082817515865719	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-7	54	1752082817515865719	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
-7	54	1752082817515865719	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
-54	1954	1752082817562863178	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
-1954	2361	1752082819462760432	MNote	4c5547c2d300b8e1
+4	46	1752234333694539471	MNote_autogen/timestamp	c2ed39749cae4b3
+4	46	1752234333694539471	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+4	46	1752234333694539471	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
+4	46	1752234333694539471	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+46	2937	1752234333735542019	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
+2937	3488	1752234336626721431	MNote	4c5547c2d300b8e1
+4	490	1752236009531259635	MNote_autogen/timestamp	c2ed39749cae4b3
+4	490	1752236009531259635	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+4	490	1752236009531259635	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
+4	490	1752236009531259635	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+490	2844	1752236009545259858	CMakeFiles/MNote.dir/MNote_autogen/mocs_compilation.cpp.o	890e2fbdb06398d1
+491	2881	1752236009545259858	CMakeFiles/MNote.dir/src/main.cpp.o	e920380ca36bc4b4
+491	3275	1752236009545259858	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
+3275	3825	1752236012329304428	MNote	4c5547c2d300b8e1
+4	43	1752236052321963525	MNote_autogen/timestamp	c2ed39749cae4b3
+4	43	1752236052321963525	MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+4	43	1752236052321963525	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/timestamp	c2ed39749cae4b3
+4	43	1752236052321963525	/home/marcus/Coding/C++ Projects/MNote/build/MNote_autogen/mocs_compilation.cpp	c2ed39749cae4b3
+44	2702	1752236052361964202	CMakeFiles/MNote.dir/src/mainwindow.cpp.o	8c1742d5ebf8c7b2
+2702	3160	1752236055020009220	MNote	4c5547c2d300b8e1
