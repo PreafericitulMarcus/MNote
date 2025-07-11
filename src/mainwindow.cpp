@@ -3,6 +3,13 @@
 
 #include <QShortcut>
 #include <QKeyEvent>
+#include <QFileDialog>
+#include <QFile>
+#include <QTextStream>
+#include <QTimer>
+#include <QLabel>
+#include <QStatusBar>
+#include <QRegularExpression>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),
@@ -14,11 +21,37 @@ MainWindow::MainWindow(QWidget *parent)
     setupKeyboardShortcuts();
     // Install event filter on textEdit for Ctrl+Enter
     ui->textEdit->installEventFilter(this);
+
+    // Autosave timer setup
+    autosaveTimer = new QTimer(this);
+    connect(autosaveTimer, &QTimer::timeout, this, &MainWindow::save);
+
+    // Setup status bar
+    setupStatusBar();
+
+    connect(ui->textEdit, &QTextEdit::textChanged, this, &MainWindow::updateWordCount);
+    connect(ui->textEdit, &QTextEdit::textChanged, this, &MainWindow::updateSaveStatus);
+
+    // Initial word count update
+    updateWordCount();
+}
+
+void MainWindow::setupStatusBar()
+{
+    // Initialize status bar labels. word count and save status
+    wordCountLabel = new QLabel(this);
+    saveLabel = new QLabel(this);
+    statusBar()->setStyleSheet("min-height: 17px; max-height: 17px; padding: 0; margin: 0;");
+    statusBar()->addPermanentWidget(wordCountLabel);
+    statusBar()->addWidget(saveLabel);
+    wordCountLabel->setStyleSheet("padding-right: 8px; font-size: 12px; qproperty-alignment: AlignCenter;");
+    saveLabel->setStyleSheet("color: #EA3C53; padding-left: 5px; font-size: 12px; qproperty-alignment: AlignCenter;");
+    saveLabel->setText("NOT SAVED"); // Initial text for save label
 }
 
 void MainWindow::setupKeyboardShortcuts()
 {
-    // new QShortcut(QKeySequence(Qt::CTRL | Qt::Key_S), this, SLOT(save()));
+    new QShortcut(QKeySequence(Qt::CTRL | Qt::Key_S), this, SLOT(save()));
     // new QShortcut(QKeySequence(Qt::CTRL | Qt::Key_V), this, SLOT(paste()));
     new QShortcut(QKeySequence(Qt::CTRL | Qt::Key_Q), this, SLOT(quit()));
     new QShortcut(QKeySequence(Qt::CTRL | Qt::Key_J), this, SLOT(allignLeft()));
@@ -34,6 +67,67 @@ void MainWindow::setupKeyboardShortcuts()
     new QShortcut(QKeySequence(Qt::CTRL | Qt::SHIFT | Qt::Key_Enter), this, SLOT(jumpAbove()));
     new QShortcut(QKeySequence(Qt::CTRL | Qt::SHIFT | Qt::Key_L), this, SLOT(jumpEndLine()));
     new QShortcut(QKeySequence(Qt::CTRL | Qt::SHIFT | Qt::Key_K), this, SLOT(deleteCurrentLine()));
+}
+
+void MainWindow::updateWordCount()
+{
+    // Count words in the textEdit
+    QString text = ui->textEdit->toPlainText();
+
+    // Use a regular expression to split the text by whitespace and count the words.
+    // At first it is 0, then update.
+    int wordCount = text.isEmpty() ? 0 : text.split(QRegularExpression("\\s+"), Qt::SkipEmptyParts).count();
+
+    // Update the word count label in the status bar
+    wordCountLabel->setText(QString("w:%1").arg(wordCount));
+}
+
+void MainWindow::updateSaveStatus()
+{
+    saveLabel->setStyleSheet("color: #EA3C53; padding-left: 5px; font-size: 12px; qproperty-alignment: AlignCenter;");
+    saveLabel->setText("NOT SAVED");
+}
+
+void MainWindow::save()
+{
+    if (ui->textEdit->toPlainText().isEmpty())
+    {
+        // If the textEdit is empty, do not save
+        return;
+    }
+    // Save the content of textEdit to a file
+    // If currentSavePath is empty, prompt the user to choose a save location
+    if (currentSavePath.isEmpty())
+    {
+        // If no path is set, prompt the user to choose a save location
+        currentSavePath = QFileDialog::getSaveFileName(this, "Save Note", "", "Text Files (*.txt);;All Files (*)");
+        if (currentSavePath.isEmpty())
+            return; // User cancelled the save dialog
+
+        // Ensure .txt extension
+        if (!currentSavePath.endsWith(".txt", Qt::CaseInsensitive))
+        {
+            currentSavePath += ".txt";
+        }
+    }
+
+    // autosave functionality
+    //  If the autosave timer is not active, start it. Saves every minute
+    if (autosaveTimer && !autosaveTimer->isActive())
+        autosaveTimer->start(60000); // 1 minute
+
+    // Open the file for writing
+    // If the file does not exist, it will be created
+    // If it exists, it will be overwritten
+    QFile file(currentSavePath);
+    if (file.open(QIODevice::WriteOnly | QIODevice::Text))
+    {
+        QTextStream out(&file);
+        out << ui->textEdit->toPlainText();
+        file.close();
+        saveLabel->setStyleSheet("color: #A8E4A0; padding-left: 5px; font-size: 12px; qproperty-alignment: AlignCenter;");
+        saveLabel->setText("SAVED");
+    }
 }
 
 void MainWindow::quit()
@@ -166,6 +260,12 @@ void MainWindow::deleteCurrentLine()
     cursor.movePosition(QTextCursor::EndOfLine, QTextCursor::KeepAnchor);
     cursor.removeSelectedText();
     ui->textEdit->setTextCursor(cursor);
+}
+
+void MainWindow::closeEvent(QCloseEvent *event)
+{
+    save(); // Save before closing
+    QMainWindow::closeEvent(event);
 }
 
 MainWindow::~MainWindow()

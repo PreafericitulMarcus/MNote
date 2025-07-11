@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QLabel>
 
 QT_BEGIN_NAMESPACE
 namespace Ui
@@ -15,14 +16,19 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);  
+    MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+protected:
+    void closeEvent(QCloseEvent *event) override;
 
 private slots:
-    
-    //keyboard shortcut slots
-    // void save();
+
+    void updateWordCount();
+    void updateSaveStatus();
+
+    // keyboard shortcut slots
+    void save();
     // void paste();
     void quit();
     void allignLeft();
@@ -43,7 +49,14 @@ private slots:
 private:
     Ui::MainWindow *ui;
 
+    QTimer *autosaveTimer = nullptr; // Timer for auto-saving the document
+    QString currentSavePath = "";    // Path of the current file to save. Initially empty, i.e., the file is not saved yet.
+
+    QLabel *wordCountLabel = nullptr; // Status bar word count label
+    QLabel *saveLabel = nullptr;  // Status bar save label
+
     void setupKeyboardShortcuts();
-   // void makeConnections();
+    void setupStatusBar();
+    // void makeConnections();
 };
 #endif // MAINWINDOW_H
